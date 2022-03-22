@@ -1,0 +1,99 @@
+.details-container {
+    padding: 80px 0;
+}
+
+.details-area{
+    padding: 0 40px;
+}
+
+.doctor-info {
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.doctor-info img {
+    width: 80%;
+    border-radius: 10px;
+}
+.doctor-info h1 {
+    font-weight: 800;
+    color: #00abb1;
+}
+.doctor-info h3 {
+    font-weight: 600;
+}
+.doctor-info p {
+    color: gray;
+    font-size: 20px;
+}
+
+.desc {
+    padding: 40px 0;
+}
+
+.desc h1,
+.specialities h1 {
+    color: #00abb1;
+}
+
+.desc p,
+.specialities p {
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+}
+
+.specialities ul li {
+    color: #00abb1;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+/* booking part area  */
+
+.price-data {
+    justify-content: space-between;
+}
+
+.btn-booking {
+    width: 100%;
+    background-color: #00abb1;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 15px;
+    margin: 25px 0;
+}
+
+.booking-form{
+    padding: 40px;
+}
+
+.booking-form label {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.booking-form h1 {
+    font-size: 35px;
+    color: #00abb1;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.booking-form h2 {
+    font-size: 25px;
+    color: #00abb1;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .doctor-info img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    
+}

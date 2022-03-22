@@ -1,0 +1,51 @@
+.booking-page {
+    padding: 80px 0;
+}
+
+.information {
+    padding: 40px;
+}
+
+.information h1 {
+    color: #00abb1;
+    font-weight: 600;
+    font-size: 35px;
+    padding: 25px 0;
+}
+
+.information form label {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.summary label {
+    font-size: 20px;
+}
+
+.price-data p {
+    font-size: 18px;
+}
+
+.summary {
+    padding: 40px;
+}
+
+.summary h1 {
+    color: #00abb1;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .summary h1 {
+        
+        font-size: 40px;
+        
+    }
+}

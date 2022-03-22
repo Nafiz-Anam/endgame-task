@@ -1,0 +1,19 @@
+.courses-body {
+    padding: 80px 0;
+}
+
+.courses-body h1 {
+    font-size: 65px;
+    font-weight: 800;
+    color: #00acb1;
+}
+.courses-body h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+    .courses-body h1 {
+        font-size: 40px;
+    }
+}
